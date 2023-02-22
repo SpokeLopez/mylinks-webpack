@@ -3,6 +3,7 @@ const $technologies = document.querySelector('#technologies');
 const $name = document.querySelector('h1');
 const $username = document.querySelector('h2');
 const $biography = document.getElementById('biography');
+const $description = document.getElementById('description');
 
 const data =
 {
@@ -10,6 +11,7 @@ const data =
     username: "@spokelopez",
     biography: "Frontend Lead Developer en @VASS_Group - #JavaScript #Vue #PHP #Magento #Css #Docker #Laravel",
     avatar: "...",
+    description: "Soy un desarrollador frontend ubicado en México, actualmente trabajo como desarrollador de e- commerce en la plataforma Magento. Estoy especializado también en PHP, Node.js y Laravel.",
     technologies:
         [
             {
@@ -27,24 +29,17 @@ const data =
     links:
         [
             {
-                name: "Blog",
-                url: "https://example.com/",
-                color: "teal",
-                opacity: "400",
-                emoji: "📖",
+                name: "Sitio web",
+                url: "https://spokelopez.com/",
+                color: "stone",
+                opacity: "500",
+                emoji: "🌎",
             },
             {
                 name: "Twitter",
-                url: "https://example.com/",
+                url: "https://twitter.com/spokelopez",
                 color: "sky",
                 opacity: "400",
-                emoji: "💬",
-            },
-            {
-                name: "Sitio web",
-                url: "https://example.com/",
-                color: "green",
-                opacity: "700",
                 emoji: "💬",
             },
             {
@@ -52,10 +47,23 @@ const data =
                 url: "https://example.com/",
                 color: "red",
                 opacity: "500",
-                emoji: "💬",
+                emoji: "📺",
             },
+            {
+                name: "Blog",
+                url: "https://www.comsoft-mexico.com/",
+                color: "violet",
+                opacity: "400",
+                emoji: "📖",
+            },
+            {
+                name: "Linkedin",
+                url: "#",
+                color: "blue",
+                opacity: "500",
+                emoji: "💻",
+            }
         ],
-    footer: "Made with Love on Colombia",
 };
 
 const header = () => {
@@ -66,10 +74,14 @@ const header = () => {
     $name.appendChild(name);
     $username.appendChild(username);
     $biography.appendChild(biography);
-
 }
 
-const main = ()=> {
+const section = () => {
+    let description = document.createTextNode(data?.description);
+    $description.appendChild(description);
+}
+
+const main = () => {
     let links = data?.links?.map((link) => {
         return `
             <div class="bg-${link.color}-${link.opacity} px-4 py-5 w-full flex justify-between">
@@ -85,4 +97,5 @@ const main = ()=> {
     newItem.innerHTML = links;
 }
 header();
+section();
 main();
