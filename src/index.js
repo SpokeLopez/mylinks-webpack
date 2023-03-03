@@ -44,7 +44,7 @@ const data =
             },
             {
                 name: "Youtube",
-                url: "https://example.com/",
+                url: "https://www.youtube.com/c/SpokeLopez",
                 color: "red",
                 opacity: "500",
                 emoji: "📺",
@@ -57,8 +57,8 @@ const data =
                 emoji: "📖",
             },
             {
-                name: "Linkedin",
-                url: "#",
+                name: "Github",
+                url: "https://github.com/SpokeLopez",
                 color: "blue",
                 opacity: "500",
                 emoji: "💻",
