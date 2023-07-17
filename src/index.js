@@ -9,7 +9,7 @@ const data =
 {
     name: "Eduardo López 🇲🇽",
     username: "@spokelopez",
-    biography: "Frontend Lead Developer en @VASS_Group - #JavaScript #Vue #PHP #Magento #Css #Docker #Laravel",
+    biography: "Software engineer en @dacodes - #JavaScript #NodeJS #PHP #Magento #Css #Docker #Laravel #Mysql",
     avatar: "...",
     description: "Soy un desarrollador frontend ubicado en México, actualmente trabajo como desarrollador de e- commerce en la plataforma Magento. Estoy especializado también en PHP, Node.js y Laravel.",
     technologies:
