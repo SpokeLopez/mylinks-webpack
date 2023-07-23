@@ -9,9 +9,9 @@ const data =
 {
     name: "Eduardo López 🇲🇽",
     username: "@spokelopez",
-    biography: "Software engineer en @dacodes - #JavaScript #NodeJS #PHP #Magento #Css #Docker #Laravel #Mysql",
+    biography: "Software engineer en @dacodes - #JavaScript #NodeJS #PHP #Magento #Css #Laravel #Mysql #Vue",
     avatar: "...",
-    description: "Soy un desarrollador frontend ubicado en México, actualmente trabajo como desarrollador de e- commerce en la plataforma Magento. Estoy especializado también en PHP, Node.js y Laravel.",
+    description: "Soy un desarrollador fullstack ubicado en México, actualmente trabajo como implementador de bots para diferentes ambientes conversacionales. Estoy especializado en PHP, Node.js, Laravel, Javascript, CSS y Vue",
     technologies:
         [
             {
