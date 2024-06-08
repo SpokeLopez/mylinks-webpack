@@ -11,7 +11,7 @@ const data =
     username: "@spokelopez",
     biography: "Software engineer en @dacodes - #JavaScript #NodeJS #PHP #Magento #Css #Laravel #Mysql #Vue",
     avatar: "...",
-    description: "Soy un desarrollador fullstack ubicado en México, actualmente trabajo como implementador de bots para diferentes ambientes conversacionales. Estoy especializado en PHP, Node.js, Laravel, Javascript, CSS y Vue",
+    description: "Soy un desarrollador fullstack ubicado en México, actualmente trabajo en diversos proyectos para Dacodes. Estoy especializado en PHP, Node.js, Laravel, Javascript, CSS y Vue",
     technologies:
         [
             {
@@ -36,9 +36,9 @@ const data =
                 emoji: "🌎",
             },
             {
-                name: "Twitter",
-                url: "https://twitter.com/spokelopez",
-                color: "sky",
+                name: "Linkedin",
+                url: "https://www.linkedin.com/in/spokelopez",
+                color: "#0e76a8",
                 opacity: "400",
                 emoji: "💬",
             },
